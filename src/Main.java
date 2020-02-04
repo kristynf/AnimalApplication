@@ -1,13 +1,19 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Animal a = new Animal();
 
-        Scanner sc = new Scanner(System.in);
+
+public static String GetPet(){
+
+    
+
+}
+
+
+/*        Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to Kristyn's Pet Rescue");
 
-//        System.out.println("Do you have incoming animal information? y/n");
+        System.out.println("Do you have incoming animal information? y/n");
         System.out.println("Please Enter This Animal's Type: ");
         String type = sc.nextLine();
         a.setBreed(type);
@@ -33,18 +39,18 @@ public class Main {
             else{
                 a.setInStock(false);
 
-            }
-        }
-
-    }
-
-
-
-
-
-
-
+            }*/
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

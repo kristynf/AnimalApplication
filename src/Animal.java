@@ -7,9 +7,6 @@ public class Animal {
     private boolean isInStock;
 
 
-
-
-
     public Animal() {
 
     }
