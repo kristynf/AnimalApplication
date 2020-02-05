@@ -5,10 +5,12 @@ public class AnimalApp {
 
 
 
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Animal a = new Animal();
         Animal b = new Animal();
+        Animal c = new Animal("dog","Schnauzer", "Max", "cute dog", 20.00, true);
             System.out.println("What is the first animal's name? ");
             a.setName(sc.nextLine());
             System.out.println("What is the first animal's type (cat/dog)? ");
@@ -21,6 +23,8 @@ public class AnimalApp {
             b.setAnimal_type(sc.nextLine());
             System.out.println("What is the second animal's description? ");
             b.setDescription(sc.nextLine());
+            System.out.println(a.getPet());
+            System.out.println(b.getPet());
 
        /* a.setAnimal_type("Dog");
         a.setBreed("Border Collie");

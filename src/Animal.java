@@ -42,7 +42,7 @@ public class Animal {
         this.name = name;
     }
 
-    public String setName() {
+    public String getName() {
 
         return this.name;
     }
@@ -52,7 +52,7 @@ public class Animal {
         this.description = description;
     }
 
-    public String setDescription() {
+    public String getDescription() {
 
         return this.description;
     }
@@ -62,7 +62,7 @@ public class Animal {
         this.price = price;
     }
 
-    public double setPrice() {
+    public double getPrice() {
 
         return this.price;
     }
@@ -75,5 +75,9 @@ public class Animal {
     public boolean isInStock() {
 
         return isInStock;
+    }
+
+    public String getPet(){
+       return getName()+ " " +getAnimal_type()+" "+getDescription();
     }
 }
